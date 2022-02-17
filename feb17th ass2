@@ -1,0 +1,11 @@
+number=int(input('enter the fibonacci number='))
+first=0
+second=1
+sum=0
+for num in range(0,number):
+print(first, end= ' ')
+sum=sum+first
+next=first+second 
+first=second 
+second=next 
+print (sum)
